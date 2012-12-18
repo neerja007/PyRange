@@ -54,7 +54,7 @@ def highlight(xmin, xmax):
     #line2.set_data(thisx, thisy)
     #ax2.set_xlim(thisx[0], thisx[-1])
     #ax2.set_ylim(thisy.min(), thisy.max())
-    ax2.axvspan(thisx[0], thisx[-1], color='yellow', alpha=0.5)    
+    ax2.axvspan(thisx[0], thisx[-1], color='yellow', alpha=1)    
     #ax2 = fig.add_subplot(212, axisbg='#FFFFCC')
     #line3, = ax2.plot(x, y ,'-')
     steadyxmin = thisx[0]
