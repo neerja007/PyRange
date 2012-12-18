@@ -26,6 +26,6 @@ false_x = [x for x in range(len(dates))]
 plt.plot(false_x,freq, 'o-')
 plt.plot(false_x,freq1, 'o-')
 plt.xticks(range(len(dates)), (dates), rotation=45)
-# plt.axis([xmin, xmax, ymin, ymax]) - sets axes limits on graph
+
 plt.axis([0, 50, 0, 100])
 plt.show()
