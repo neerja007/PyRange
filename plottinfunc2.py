@@ -18,10 +18,8 @@ with open('temperatures.csv', 'rb') as n:
         
         
           
-                  
-
-
-### Do plot ###
+                 
+### Do plot ####
 false_x = [x for x in range(len(dates))]
 plt.plot(false_x,freq, 'o-')
 plt.plot(false_x,freq1, 'o-')
