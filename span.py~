@@ -157,8 +157,7 @@ if __name__=='__main__':
 
 arrs = result [::2]
 arre = result [1::2]
-result1 = result
-final = result1 + unsteady
+final = result + unsteady
 final.sort()
 c=0
 k=0

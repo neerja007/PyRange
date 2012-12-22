@@ -157,7 +157,7 @@ class Window(QtGui.QDialog):
 	    
 	choosen_one = item.text()
 	choosen_url = (QtCore.QUrl(self.currentDir.absoluteFilePath(item.text()))) 
-	return choosen_url
+	print choosen_url
         #QtGui.QDesktopServices.openUrl(QtCore.QUrl(self.currentDir.absoluteFilePath(item.text())))
 
 
